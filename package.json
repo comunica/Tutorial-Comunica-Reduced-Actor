@@ -3,14 +3,14 @@
   "private": true,
   "version": "1.0.0",
   "description": "",
-  "lsd:module": "https://raw.githubusercontent.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/",
+  "lsd:module": "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/",
   "lsd:components": "components/components.jsonld",
   "lsd:contexts": {
-    "https://raw.githubusercontent.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/master/components/context.jsonld": "components/context.jsonld"
+    "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/master/components/context.jsonld": "components/context.jsonld"
   },
   "lsd:importPaths": {
-    "https://raw.githubusercontent.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/master/config/": "config/",
-    "https://raw.githubusercontent.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/master/components/": "components/"
+    "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/master/config/": "config/",
+    "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/master/components/": "components/"
   },
   "main": "index.js",
   "scripts": {
@@ -18,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code.git"
+    "url": "git+https://github.com/comunica/Tutorial-Comunica-Reduced-Actor.git"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/issues"
+    "url": "https://github.com/comunica/Tutorial-Comunica-Reduced-Actor/issues"
   },
-  "homepage": "https://github.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code#readme",
+  "homepage": "https://github.com/comunica/Tutorial-Comunica-Reduced-Actor#readme",
   "dependencies": {
     "@comunica/actor-init-sparql": "1.5.2"
   }

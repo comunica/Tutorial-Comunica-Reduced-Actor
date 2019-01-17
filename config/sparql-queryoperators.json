@@ -32,7 +32,7 @@
     "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/mediator-number/^1.0.0/components/context.jsonld",
     "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/mediator-race/^1.0.0/components/context.jsonld",
     
-    "https://raw.githubusercontent.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/master/components/context.jsonld"
+    "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/master/components/context.jsonld"
   ],
   "@id": "urn:comunica:my",
   "actors": [

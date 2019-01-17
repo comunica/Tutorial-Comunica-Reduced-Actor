@@ -2,8 +2,8 @@
   "@context": [
     "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^3.0.0/components/context.jsonld",
     {
-      "my-components": "https://raw.githubusercontent.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/master/components/",
-      "my-config": "https://raw.githubusercontent.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/master/config/",
+      "my-components": "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/master/components/",
+      "my-config": "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/master/config/",
 
       "ActorQueryOperationMyReduced": "my-components:ActorQueryOperationMyReduced.jsonld",
       "cacheSize": "components:ActorQueryOperationMyReduced.jsonld#cacheSize"
