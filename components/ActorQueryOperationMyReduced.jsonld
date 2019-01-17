@@ -1,0 +1,35 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/master/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/bus-query-operation/^1.0.0/components/context.jsonld"
+  ],
+  "@id": "https://raw.githubusercontent.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/",
+  "components": [
+    {
+      "@id": "my-components:ActorQueryOperationMyReduced.jsonld",
+      "@type": "Class",
+      "extends": "cbqo:Actor/QueryOperationTypedMediated",
+      "requireElement": "ActorQueryOperationMyReduced",
+      "comment": "My custom REDUCED actor.",
+      "parameters": [
+        {
+          "@id": "components:ActorQueryOperationMyReduced.jsonld#cacheSize",
+          "default": 5,
+          "unique": true,
+          "range": "xsd:integer"
+        }
+      ],
+      "constructorArguments": [
+        {
+          "extends": "cbqo:Actor/QueryOperationTypedMediated/constructorArgumentsObject",
+          "fields": [
+            {
+              "keyRaw": "cacheSize",
+              "value": "components:ActorQueryOperationMyReduced.jsonld#cacheSize"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

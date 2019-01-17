@@ -1,0 +1,9 @@
+{
+  "@context": "https://raw.githubusercontent.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/master/components/context.jsonld",
+  "@id": "https://raw.githubusercontent.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/",
+  "@type": "Module",
+  "requireName": "tutorial-comunica-actor-reduced",
+  "import": [
+    "my-components:ActorQueryOperationMyReduced.jsonld"
+  ]
+}
