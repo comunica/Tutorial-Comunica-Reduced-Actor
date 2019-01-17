@@ -1,0 +1,31 @@
+{
+  "name": "tutorial-comunica-actor-reduced",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "lsd:module": "https://raw.githubusercontent.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/",
+  "lsd:components": "components/components.jsonld",
+  "lsd:contexts": {
+    "https://raw.githubusercontent.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/master/components/context.jsonld": "components/context.jsonld"
+  },
+  "lsd:importPaths": {
+    "https://raw.githubusercontent.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/master/config/": "config/",
+    "https://raw.githubusercontent.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/master/components/": "components/"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/issues"
+  },
+  "homepage": "https://github.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code#readme",
+  "dependencies": {
+    "@comunica/actor-init-sparql": "1.5.2"
+  }
+}
