@@ -1,0 +1,19 @@
+{
+  "name": "tutorial-comunica-actor-reduced",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/issues"
+  },
+  "homepage": "https://github.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code#readme"
+}
