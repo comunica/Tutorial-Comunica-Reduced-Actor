@@ -2,9 +2,22 @@ const newEngineDynamic = require('@comunica/actor-init-sparql').newEngineDynamic
 
 const query = `
 SELECT REDUCED * {
-    ?s ?p <http://dbpedia.org/resource/Belgium>.
-    ?s ?p ?o.
-} LIMIT 10
+    {
+        SELECT * {
+            SELECT * {
+                ?s ?p <http://dbpedia.org/resource/Belgium>.
+                ?s ?p ?o.
+            } LIMIT 10
+        } ORDER BY ?s
+    } UNION {
+        SELECT * {
+            SELECT * {
+                ?s ?p <http://dbpedia.org/resource/Belgium>.
+                ?s ?p ?o.
+            } LIMIT 10
+        } ORDER BY ?o
+    }
+}
 `;
 
 newEngineDynamic({ configResourceUrl: __dirname + '/config/config.json', mainModulePath: __dirname }).then(myEngine => {
