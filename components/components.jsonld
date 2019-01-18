@@ -1,0 +1,9 @@
+{
+  "@context": "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/master/components/context.jsonld",
+  "@id": "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/",
+  "@type": "Module",
+  "requireName": "tutorial-comunica-actor-reduced",
+  "import": [
+    "my-components:Actor/QueryOperation/MyReduced.jsonld"
+  ]
+}

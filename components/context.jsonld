@@ -2,7 +2,11 @@
   "@context": [
     "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^3.0.0/components/context.jsonld",
     {
-      "my-config": "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/master/config/"
+      "my-components": "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/master/components/",
+      "my-config": "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/master/config/",
+
+      "ActorQueryOperationMyReduced": "my-components:ActorQueryOperationMyReduced.jsonld",
+      "cacheSize": "my-components:ActorQueryOperationMyReduced.jsonld#cacheSize"
     }
   ]
 }

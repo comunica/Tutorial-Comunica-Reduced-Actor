@@ -1,0 +1,21 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/master/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/bus-query-operation/^1.0.0/components/context.jsonld"
+  ],
+  "@id": "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/",
+  "components": [
+    {
+      "@id": "my-components:ActorQueryOperationMyReduced.jsonld",
+      "@type": "Class",
+      "extends": "cbqo:Actor/QueryOperationTypedMediated",
+      "requireElement": "ActorQueryOperationMyReduced",
+      "comment": "My custom REDUCED actor.",
+      "constructorArguments": [
+        {
+          "extends": "cbqo:Actor/QueryOperationTypedMediated/constructorArgumentsObject"
+        }
+      ]
+    }
+  ]
+}
