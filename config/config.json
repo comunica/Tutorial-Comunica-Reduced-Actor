@@ -20,7 +20,7 @@
     "files-cais:config/sets/resolve-file.json",
     "files-cais:config/sets/resolve-hypermedia.json",
     "files-cais:config/sets/resolve-sparql.json",
-    "files-cais:config/sets/sparql-init.json",
+    "my-config:sparql-init.json",
     "files-cais:config/sets/graphql-parsers.json",
     "files-cais:config/sets/sparql-optimize.json",
     "files-cais:config/sets/sparql-parsers.json",
