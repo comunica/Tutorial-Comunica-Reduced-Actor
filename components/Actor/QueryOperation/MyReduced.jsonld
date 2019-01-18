@@ -13,7 +13,7 @@
       "comment": "My custom REDUCED actor.",
       "parameters": [
         {
-          "@id": "components:ActorQueryOperationMyReduced.jsonld#cacheSize",
+          "@id": "my-components:ActorQueryOperationMyReduced.jsonld#cacheSize",
           "default": 5,
           "unique": true,
           "range": "xsd:integer"
@@ -25,7 +25,7 @@
           "fields": [
             {
               "keyRaw": "cacheSize",
-              "value": "components:ActorQueryOperationMyReduced.jsonld#cacheSize"
+              "value": "my-components:ActorQueryOperationMyReduced.jsonld#cacheSize"
             }
           ]
         }

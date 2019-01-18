@@ -6,7 +6,7 @@
       "my-config": "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/master/config/",
 
       "ActorQueryOperationMyReduced": "my-components:ActorQueryOperationMyReduced.jsonld",
-      "cacheSize": "components:ActorQueryOperationMyReduced.jsonld#cacheSize"
+      "cacheSize": "my-components:ActorQueryOperationMyReduced.jsonld#cacheSize"
     }
   ]
 }
