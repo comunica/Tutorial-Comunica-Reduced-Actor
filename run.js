@@ -7,7 +7,7 @@ SELECT * {
 } LIMIT 10
 `;
 
-newEngineDynamic().then(myEngine => {
+newEngineDynamic({ configResourceUrl: __dirname + '/config/config.json', mainModulePath: __dirname }).then(myEngine => {
   myEngine.query(query,
     { sources: [ { type: 'hypermedia', value: 'http://fragments.dbpedia.org/2015/en' } ] })
     .then(function (result) {

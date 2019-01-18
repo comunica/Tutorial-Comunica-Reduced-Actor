@@ -3,6 +3,13 @@
   "private": true,
   "version": "1.0.0",
   "description": "",
+  "lsd:contexts": {
+    "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/master/components/context.jsonld": "components/context.jsonld"
+  },
+  "lsd:importPaths": {
+    "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/master/config/": "config/",
+    "https://raw.githubusercontent.com/comunica/Tutorial-Comunica-Reduced-Actor/master/components/": "components/"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
