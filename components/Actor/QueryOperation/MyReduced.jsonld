@@ -11,9 +11,23 @@
       "extends": "cbqo:Actor/QueryOperationTypedMediated",
       "requireElement": "ActorQueryOperationMyReduced",
       "comment": "My custom REDUCED actor.",
+      "parameters": [
+        {
+          "@id": "my-components:ActorQueryOperationMyReduced.jsonld#cacheSize",
+          "default": 100,
+          "unique": true,
+          "range": "xsd:integer"
+        }
+      ],
       "constructorArguments": [
         {
-          "extends": "cbqo:Actor/QueryOperationTypedMediated/constructorArgumentsObject"
+          "extends": "cbqo:Actor/QueryOperationTypedMediated/constructorArgumentsObject",
+          "fields": [
+            {
+              "keyRaw": "cacheSize",
+              "value": "my-components:ActorQueryOperationMyReduced.jsonld#cacheSize"
+            }
+          ]
         }
       ]
     }

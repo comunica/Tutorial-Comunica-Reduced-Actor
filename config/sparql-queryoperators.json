@@ -176,7 +176,8 @@
     {
       "@id": "my-config:sparql-queryoperators.json#myReducedQueryOperator",
       "@type": "ActorQueryOperationMyReduced",
-      "cbqo:mediatorQueryOperation": { "@id": "config-sets:sparql-queryoperators.json#mediatorQueryOperation" }
+      "cbqo:mediatorQueryOperation": { "@id": "config-sets:sparql-queryoperators.json#mediatorQueryOperation" },
+      "cacheSize": 1
     }
   ]
 }
