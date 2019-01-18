@@ -4,6 +4,6 @@
   "@type": "Module",
   "requireName": "tutorial-comunica-actor-reduced",
   "import": [
-    "my-components:ActorQueryOperationMyReduced.jsonld"
+    "my-components:Actor/QueryOperation/MyReduced.jsonld"
   ]
 }
