@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code/issues"
   },
-  "homepage": "https://github.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code#readme"
+  "homepage": "https://github.com/comunica/Tutorial-ESWC2019-Comunica-Advanced-Code#readme",
+  "dependencies": {
+    "@comunica/actor-init-sparql": "1.5.2"
+  }
 }
