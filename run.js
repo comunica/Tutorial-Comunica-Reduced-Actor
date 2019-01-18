@@ -1,7 +1,7 @@
 const newEngineDynamic = require('@comunica/actor-init-sparql').newEngineDynamic;
 
 const query = `
-SELECT * {
+SELECT REDUCED * {
     ?s ?p <http://dbpedia.org/resource/Belgium>.
     ?s ?p ?o.
 } LIMIT 10
